@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     UI[表現層 ERPLAB.UI <br> WinForms / 狀態機 / 反射路由] -->|呼叫| BLL
     BLL[商業邏輯層 ERPLAB.BLL <br> 零信任運算 / 單據取號調度] -->|委派執行| DAL
